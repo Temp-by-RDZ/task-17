@@ -184,6 +184,10 @@ public class My_LinkedList<Type> implements Iterable<Type> {
 		return result.toString();
 		}
 
+	/**
+	 * Вывод элементов списка с конца к началу
+	 * @return список в тектсе
+	 */
 	public String toString_backwards()	{
 		StringBuilder result = new StringBuilder("[");
 		My_Node<Type> point = last;
